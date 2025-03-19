@@ -60,3 +60,18 @@ button {
     margin-bottom: 20px;
     transition: 1.0s;
 }
+
+button:hover {
+    background-color: #25a7fd;
+}
+
+p {
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p a {
+    color: #6ed2eb;
+    text-decoration: none;
+}
