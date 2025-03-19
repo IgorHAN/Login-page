@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -17,7 +18,7 @@
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="password" placeholder="Senha" required>
                 <button type="submit" name="login">Login</button>
-                <p>Não tem uma conta?<a href="#"> <br> Cadastre-se</a></p>
+                <p>Não tem uma conta?<a href="#" onclick="showForm('register-form')"> <br> Cadastre-se</a></p>
             </form>
         </div>
         <div class="form-box" id="register-form">
@@ -27,17 +28,17 @@
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="password" placeholder="Senha  " required>
                 <select name="role" required>
-                    <option value="">Selecione a opção</option>
+                    <option value="">---Selecione a opção---</option>
                     <option value="user">Usuário</option>
                     <option value="adm">Administrador</option>
                 </select>
                 <button type="submit" name="register">Cadastre-se</button>
-                <p>Já tem uma conta?<a href="#"> <br> Entrar</a></p>
+                <p>Já tem uma conta?<a href="#" onclick="showForm('login-form')"> <br> Entrar</a></p>
             </form>
         </div>
 
     </div>
-    
+    <script src="script.js"></script>
 </body>
  
 </html>
