@@ -27,6 +27,11 @@ body {
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 0 10px #05e2ff1a;
+    display: none;
+}
+
+.form-box.active {
+    display: block;
 }
 
  h2 {
@@ -35,7 +40,8 @@ body {
     margin-bottom: 20px;
 }
 
-input {
+input,
+select {
     width: 100%;
     padding: 12px;
     background: #eee;
@@ -45,6 +51,7 @@ input {
     font-size: 15px;
     color: #333;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 button {
@@ -79,3 +86,5 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+
+
