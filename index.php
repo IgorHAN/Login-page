@@ -13,7 +13,7 @@
 
     <div class="container">
         <div class="form-box active" id="login-form">
-            <form action="">
+            <form action="processa_usuario.php" method="post">
                 <h2>Login</h2>
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="password" placeholder="Senha" required>
@@ -22,7 +22,7 @@
             </form>
         </div>
         <div class="form-box" id="register-form">
-            <form action="">
+            <form action="processa_usuario.php" method="post">
                 <h2>Registrar-se</h2>
                 <input type="name" name="name" placeholder="Nome" required>
                 <input type="email" name="email" placeholder="Email" required>
